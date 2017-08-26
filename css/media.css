@@ -1,0 +1,40 @@
+@media only screen and (max-width:1115px) {
+    nav {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width:1160px) {
+    aside {
+        float: none;
+        width: 98%;
+        margin: 8px auto;
+    }
+    br {
+        display: block;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    aside {
+        float: none;
+        width: 98%;
+        margin: 8px auto;
+    }
+    main {
+        float: none;
+        width: 98%;
+        margin: 10px auto;
+    }
+    nav {
+        text-align: center;
+        float: none;
+        width: 60%;
+        margin: 10px auto;
+    }
+    nav a:hover {
+        font-size: 100%;
+        border-bottom: 1px solid #959595;
+    }
+}
